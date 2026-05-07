@@ -148,5 +148,5 @@ This structured JSON is instantly saved to **MongoDB** and parsed by the React f
 
 ---
 <div align="center">
-  <p>satadru mondal</p>
+  <p>Satadru Mondal</p>
 </div>
