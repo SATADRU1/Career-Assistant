@@ -29,6 +29,7 @@ const interviewReportSchema = z.object({
         focus: z.string().describe("The primary technical focus area for this day (e.g., 'Advanced Database Optimization')."),
         tasks: z.array(z.string()).describe("A list of 3-4 highly detailed, multi-sentence tasks. Each task must explain exactly what to study, what practical project to build, and why it is important for the role."),
     })).describe("A 7-day intensive, personalized preparation roadmap."),
+    title: z.string().describe("Title of the job for which the interview report is generated."),
 });
 
 async function generateInterviewReport({ resume, selfDescription, jobDescription }) {
