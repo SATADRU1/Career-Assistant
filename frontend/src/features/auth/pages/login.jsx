@@ -1,4 +1,3 @@
-import React from 'react'
 import '../auth.form.scss'
 import { Link } from 'react-router-dom'
 import { useAuth } from '../hooks/useAuth'
