@@ -1,4 +1,3 @@
-import React from "react"
 import { useNavigate, Link } from "react-router-dom"
 import { useState } from "react"
 import { useAuth } from "../hooks/useAuth"
@@ -18,9 +17,13 @@ const Register = () => {
     };
 
     if (loading) {
-        return (<main>
-            <h1>Loading...</h1>
-        </main>);
+        return (
+            <main>
+                <div className="form-container">
+                    <h1>Loading...</h1>
+                </div>
+            </main>
+        );
     }
     return (
         <main>
